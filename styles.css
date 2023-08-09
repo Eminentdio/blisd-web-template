@@ -1,0 +1,742 @@
+html, body{
+    height: 100%;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul{
+    list-style: none;
+    margin-top: -10px;
+}
+
+
+body{
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+}
+header{
+    position: fixed;
+    width: 100%;
+    height: 75px;
+    background-color: #0a8550;
+    padding: 10px;
+}
+.logo{
+    width: 50px;
+    border-radius: 50px;
+    margin-left: -40px;
+    margin-top: -10px;
+}
+
+nav{
+    max-width: 1100px;
+    height: inherit;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu > li,.menu > a{
+    display: inline-block;
+}
+.menu a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 12px 1.5rem;
+    transition: background-color .9s ease, color .9s ease;
+}
+
+.menu a:hover{
+    background-color: #000000;
+    color:rgb(242, 255, 0);
+    border-radius: 10px;
+}
+
+/* Login Page Style */
+.parent-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.parent-container img{
+    width: 50%;
+    margin: 10px;
+    height: auto;
+}
+.form-container{
+    width: 40%;
+    height: 420px;
+    margin: auto 60px;
+    margin-top: 120px;
+    float: right;
+    padding: 12px 1.5em;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.494);
+    box-shadow: 0px 2px 8px 0px rgb(1, 7, 5, 0.9);
+}
+
+.login-form{
+    width: 100%;
+    height: auto;
+    margin: 20px;
+    padding: 12px;
+}
+.login-form label{
+   font-family: monospace;
+   font-weight: 200;
+   font-size: 1em;
+   color: #000000;
+}
+.login-form input{
+    width: 80%;
+    height: 40px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    margin: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: #bbc7ab;
+}
+
+.login-btn{
+    width: 50%;
+    height: 30px;
+    margin-top: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: rgb(25, 150, 9);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    border: none;
+    color: #fff;
+    transition: background-color .9s ease;
+    cursor: pointer;
+}
+
+.login-btn:hover{
+    background-color: #666;
+    color: #fff;
+}
+
+
+
+/* End of login page style */
+
+/* Banner Style */
+
+.banner{
+    width: 100%;
+    height: 70%;
+    position: relative;
+    z-index: -1;
+    background-image: url('Images/vec2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* End of Banner Style*/
+
+
+
+
+/* Profile Page Styles */
+
+
+.profile-page{
+    width: 100%;
+    height: auto;
+}
+.profile-desc{
+    width: inherit;
+    height: auto;
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 12px 1.5rem;
+    background-color: #f0f0f01b;
+}
+
+.about-us, .container h2{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.span1, .span2{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.span1{
+    color: #1b6a44;
+}
+.span2{
+    color: black;
+    
+}
+
+.profile-btn{
+    width: 30%;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    text-align: center;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: #4ac900;
+    transition: background-color .9s ease;
+}
+.profile-btn a{
+    text-decoration: none;
+    color: #fff;
+}
+.profile-btn:hover, .btn:hover{
+    background-color: #050202;
+    color: #ffffff;
+}
+/* End of Profile Page Styles */
+
+
+
+
+/* Mission-vision styles */
+.mission-and-vision{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 40px;
+    padding: 2em;
+    background-color: #69ddcc;
+}
+
+.mission-vision-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.mission-statement{
+    width: 60%;
+    height: 300px;
+    margin: 20px;
+    padding: 10px;
+    object-fit: contain;
+    background-color: #2d581cec;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px 0px rgb(1, 5, 7);
+}
+.vision-statement{
+    width: 60%;
+    height: 300px;
+    margin-left: 30%;
+    padding: 10px;
+    object-fit: contain;
+    background-color: #171f13df;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px 0px rgb(1, 5, 7);
+}
+
+.core-statement{
+    width: 60%;
+    height: 300px;
+    margin-left: 75%;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    padding: 10px;
+    object-fit: contain;
+    background-color: #fefefeec;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px 0px rgb(1, 5, 7);
+}
+
+
+.mission-statement h3{
+    margin: 10px;
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: #effeff;
+}
+
+.mission-statement ul{
+    color: whitesmoke;
+    margin: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14px;
+}
+
+.vision-statement h3{
+    margin: 10px;
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: #02d278;
+}
+
+.vision-statement ul{
+    color: rgba(180, 180, 180, 0.717);
+    margin: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14px;
+}
+
+.core-statement h3{
+    margin: 10px;
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: #3f4141;
+}
+
+.core-statement ul{
+    color: rgb(50, 47, 47);
+    margin: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14px;
+}
+
+/* End of Mission-vision styling... */
+
+/* Team-Profile Style */
+
+.team-profile{
+    width: inherit;
+    height: auto;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #fdfdfd;
+
+}
+.team-profile-container{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    object-fit: cover;
+    gap: 10px;
+    overflow: hidden;
+}
+
+.team-profile-container div{
+    width: 85%;
+    height: 350px;
+    padding: 20px;
+    margin: 30px 10px 10px 30px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px 0px rgb(1, 5, 7);
+
+}
+.team-profile-container div > img{
+    width: 30%;
+    height: 100px;
+    margin: 20px;
+    border-radius: 100%;
+}
+
+.team-profile-container div h3{
+    margin: 10px;
+    color: #222828;
+}
+
+.team-profile-container div p{
+    font-size: 14px;
+    margin: 15px;
+}
+
+
+.team-profile-btn{
+    width: 50%;
+    height: 30px;
+    margin: 10  px;
+    padding: 5px;
+    border: none;
+    border-radius: 30px;
+    background-color: #4ac900;
+    transition: background-color .9s;
+
+}
+
+.team-profile-btn:hover{
+    color: #fff;
+    background-color: #000000;
+}
+
+.team-profile-btn a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* End of Team-Profile Style*/
+
+
+/* Past-project Section Style*/
+
+.past-projects, .contact-us{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 20px;
+    padding: 2em;
+    background-color: #ffffff86;
+}
+
+.projects-container{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    object-fit: cover;
+    gap: 5px;
+    overflow: hidden;
+}
+
+.projects-container div{
+    width: 85%;
+    height: 400px;
+    padding: 10px;
+    margin: 30px 10px 10px 30px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px 0px rgb(1, 5, 7);
+    background-color: #ffffff;
+
+}
+
+.projects-container div > img{
+    width: 90%;
+    height: 200px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.projects-container-btn{
+    width: 50%;
+    height: 30px;
+    margin: 10  px;
+    padding: 5px;
+    border: none;
+    border-radius: 30px;
+    background-color: #4ac900;
+    transition: background-color .9s;
+
+}
+
+.projects-container-btn:hover{
+    color: #fff;
+    background-color: #000000;
+}
+
+.projects-container-btn a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.projects-container h2{
+    font-size: 1em;
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* End of Past-project Section Style */
+
+/* Contact Us style */
+
+.contact-us{
+    width: 100%;
+    height: 100vh;
+    margin-top: 30px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(87, 236, 28, 0.38)), url('https://img.freepik.com/premium-vector/asphalt-road-going-through-hill-coconut-plantation-with-forest-trees-mountain_288411-1743.jpg?w=996');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactInfo{
+    width: 90%;
+    max-width: 600px;
+    margin-top: 6%;
+}
+
+.input-container{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.input-container input, textarea{
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid #fff;
+    color: #fff;
+    background: transparent;
+    font-size: 15px;
+    resize: none;
+}
+
+.input-container label{
+    position: absolute;
+    height: 100px;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    color: #fff;
+    cursor: text;
+    transition: 0.2s;
+}
+
+.contact-btn{
+    width: 100%;
+    padding: 10px 0;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+.contact-btn:hover{
+    background-color: #12b625;
+}
+
+.input-container input:focus ~ label,
+.input-container input:valid ~ label, textarea:focus ~ label,
+textarea:valid ~ label{
+    position: absolute;
+    top: -35px;
+    font-size: 14px;
+    color: rgb(179, 255, 0);
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row .input-container{
+    flex-basis: 48%;
+}
+/* End of Contact Us style */
+
+/* footer style */
+footer{
+    background-color: #606767;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+}
+
+/* End of footer style */
+
+
+
+/* Mobile view style */
+
+@media screen and (max-width: 900px) {
+    header{
+        position: fixed;
+        max-width: 100%;
+        height: 70px;
+        background-color: #0a8550;
+        padding: 10px;
+    }
+    nav{
+        max-width: 80%;
+        margin: 10px;
+        margin-left: 10%;
+        height: auto;
+        display: flex;
+        justify-content: sp 12pxace-between;
+        align-items: center;
+    }
+
+    .logo{
+      width: 30px;
+      margin-top: 4px;
+    }
+    
+    .menu li a{
+        text-decoration: none;
+        color: #fff;
+        display: block;
+        padding: 10px;
+        transition: background-color .9s ease, color .9s ease;
+        font-family: 'Roboto', sans-serif;
+        font-size: 12px;
+    }
+    .parent-container{
+        max-width: 100%;
+        height: auto;
+        display: flex;
+        overflow: hidden;
+        padding: 10px;
+    }
+    
+    .form-container{
+        width: 100%;
+        height: 400px;
+        margin: 10px;
+        margin-top: 90px;
+        padding: 5px;
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 0.494);
+        box-shadow: 0px 2px 8px 0px rgb(1, 7, 5, 0.9);
+        font-size: 12px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .login-form{
+        width: 100%;
+        height: auto;
+        margin: 10px;
+        padding: 5px;
+    }
+
+    .span1, .span2{
+        font-size: 1em;
+        font-weight: 500;
+    }
+    
+    p{
+        font-size: 12px;
+    }
+   .profile-btn{
+        max-width: 30%;
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    .mission-and-vision{
+        margin-top: -3px;
+    }
+    .mission-vision-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        object-fit: cover;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .mission-statement{
+        width: 95%;
+        height: 250px;
+        margin: 5px;
+        padding: 10px;
+        object-fit: contain;
+        background-color: #2d581cec;
+        border-radius: 10px;
+        box-shadow: 0px 2px 8px 0px rgb(1, 5, 7);
+    }
+
+    .vision-statement{
+        width: 95%;
+        height: 250px;
+        margin-left: 0;
+        padding: 10px;
+        object-fit: contain;
+        background-color: #070b05ec;
+        border-radius: 10px;
+        box-shadow: 0px 2px 8px 0px rgb(1, 5, 7);
+    }
+    .core-statement{
+        width: 95%;
+        height: 250px;
+        margin-top: 10px;
+        margin-bottom: 25px;
+        margin-left: 0;
+        padding: 10px;
+        object-fit: contain;
+        background-color: #fefefeec;
+        border-radius: 10px;
+        box-shadow: 0px 2px 8px 0px rgb(1, 5, 7);
+    }
+    .mission-vision-container h3, ul{
+        font-size: 14px;
+    }
+
+    .team-profile-container{
+        max-width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        object-fit: cover;
+        gap: 10px;
+        overflow: hidden;
+    }
+    .team-profile-container div{
+        width: 70%;
+        height: 300px;
+        padding: 20px;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+        border-radius: 10px;
+        box-shadow: 0px 2px 8px 0px rgb(1, 5, 7);
+    
+    }
+
+    .team-profile-container div > img{
+        width: 25%;
+        height: 80px;
+        margin: 20px;
+        border-radius: 100%;
+    }
+    .team-profile-container div > h2{
+        font-size: 14px;
+    }
+    
+    .team-profile-container div > p{
+        font-size: 12px;
+    }
+    .team-profile-container div > button{
+        font-size: 12px;
+    }
+    .projects-container{
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        object-fit: cover;
+        gap: 5px;
+        overflow: hidden;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* End of Mobile view style */
